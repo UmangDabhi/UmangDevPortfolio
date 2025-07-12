@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu, Terminal, X } from "lucide-react";
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Link to="/" className="flex items-center space-x-2">
               <Terminal className="h-8 w-8 text-primary-400 animate-pulse" />
-              <span className="text-xl font-bold text-primary-200">umang.dev</span>
+              <span className="text-xl font-bold text-primary-200">UmangBoss</span>
             </Link>
           </motion.div>
 
