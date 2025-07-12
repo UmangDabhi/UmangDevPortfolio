@@ -16,7 +16,7 @@ const Navbar = () => {
     { path: "/certificates", label: "Certificates", icon: "🏅" },
     // { path: '/code-snippets', label: 'Code', icon: '💻' },
     // { path: '/tech-stack', label: 'Tech Stack', icon: '⚡' },
-    { path: "/blog", label: "Blog", icon: "📝" },
+    // { path: "/blog", label: "Blog", icon: "📝" },
     { path: "/contact", label: "Contact", icon: "📞" },
   ];
 
